@@ -1,0 +1,428 @@
+html {
+	scroll-behavior: smooth; 
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #313639;
+}
+.page {
+	position: relative;
+	animation-name: animatepage;
+	animation-duration: 1s;
+}
+@keyframes animatepage {
+	0% { bottom: -100px; opacity: 0; }
+	100% { bottom: 0px; opacity: 1; }
+}
+@keyframes fade {
+	0% { opacity: 0.3;}
+	50% { opacity: 0.5;}
+	100% { opacity: 1.0; }
+}
+#body {
+	background-color: #ffffff;
+	display: none;
+	font-family: 'Architects Daughter', cursive;
+}
+#loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border: 15px solid #ffffff;
+	border-radius: 50%;
+	border-bottom: 16px solid #AC1E44;
+	border-top: 16px solid #AC1E44;
+	border-right: 0px solid #000000;
+	border-left: 0px solid #c0c0c0;
+	width: 120px;
+	height: 120px;
+	animation-name: spin;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	display: block;
+	background-color: #313639;
+}
+@keyframes spin {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(360deg);}
+}
+.navbar-toggler span {
+	display: block;
+	background-color: #ffffff;
+	height: 3px;
+	width: 25px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	transform: rotate(0deg);
+	position: relative;
+	left: 0;
+	opacity: 1;
+}
+nav {
+	background-color: #313639;
+	border-bottom: 2px solid #AC1E44;
+}
+nav a {
+	color: #C0C0C0;
+	font-family: 'Architects Daughter', cursive;
+}
+nav a:hover {
+	color: #ffffff;
+	transition: 0.9s;
+}
+.navbar-brand {
+	font-family: 'Architects Daughter', cursive;
+}
+.intro {
+	background-image: url(laptop2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+.intro h1 {
+	font-size: 30px;
+	color: #AC1E44;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	font-family: 'Architects Daughter', cursive;
+}
+.intro h1 b {
+	color: #808000;
+	text-shadow: 1px 1px #ffffff;
+}
+h1 {
+	padding: 20px;
+	padding-top: 200px;
+}
+#tip {
+	text-align: center;
+	font-size: 60px;
+	margin-top: 50px;
+	opacity: 1;
+}
+.tip h2 h3 {
+	color: #313639;
+	font-size: 80px;
+	font-family: 'Architects Daughter', cursive;
+}
+.fa-quote-left, .fa-quote-right {
+	color: red;
+}
+.service2 .text {
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.fa-book, .fa-desktop, .fa-mobile, .fa-tachometer {
+	text-align: center;
+	color: #808000;
+	font-size: 50px;
+	margin-top: 20px;
+}
+section h3 {
+	font-family: 'Architects Daughter', cursive;
+}
+#service {
+	text-align: center;
+	transition: 1s;
+}
+.service{
+	text-align: center;
+	margin-top: 50px;
+	border: 1px solid #ffffff;
+}
+.service1 {
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 50px;
+	color: #AC1E44;
+	padding: 10px;
+}
+.service2 {
+	margin-top: 50px;
+}
+.text {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 25px;
+	color: #313639;
+}
+.subs {
+	text-align: center;
+	color: #000000;
+	margin-top: 20px;
+}
+.service-exp {
+	font-family: 'Architects Daughter', cursive;
+	color: #313639;
+	margin-top: 15px;
+}
+ul {
+	display: inline-block;
+}
+.col-lg-3 {
+	border: 1px solid #f0f0f0;
+	border-top: none;
+	border-bottom: none;
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+.about {
+	background-color: #f0f0f0;
+	border: 1px solid #f0f0f0;
+	margin-top: 50px;
+	text-align: center;
+}
+.about1 {
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 50px;
+	color: #AC1E44;
+	padding: 10px;
+}
+.about2 {
+	margin-top: 50px;
+}
+.office {
+	border: 1px solid #C0C0C0;
+	border-radius: 50%;
+}
+.skills {
+	margin-top: 30px;
+}
+.progress {
+	margin-top: 50px;
+	height: 30px;
+	box-shadow: 3px 2px #C0C0C0;
+}
+span {
+	font-family: 'Architects Daughter', cursive;
+}
+.about-me {
+	margin-top: 30px;
+	font-family: 'Architects Daughter', cursive;
+	color: #313639;
+}
+u {
+	color: #313639;
+}
+.goals {
+	margin-top: 50px;
+}
+.goal {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 15px;
+}
+.goals1, .goals2, .goals3 {
+	border: 1px solid #ffffff;
+	border-top: none;
+	border-bottom: none;
+}
+#goals1 {
+	background-color: #f0f0f0;
+	background-size: contain;
+	color: #000000;
+	text-decoration: none;
+	transition: 0.8s;
+}
+#goals2 {
+	background-color: #f0f0f0;
+	text-decoration: none;
+	color: #000000;
+}
+#goals3 {
+	background-color: #f0f0f0;
+	text-decoration: none;
+	color: #000000;
+}
+#goals1 :hover {
+	background-color: #313639;
+	color: #f0f0f0;
+	transition: 0.5s;
+}
+#goals2 :hover {
+	background-color: #313639;
+	color: #f0f0f0;
+	transition: 0.5s;
+}
+#goals3 :hover {
+	background-color: #313639;
+	color: #f0f0f0;
+	transition: 0.5s;
+}
+#example-txt {
+	font-family: 'Architects Daughter', cursive;
+	color: #313639;
+	margin-top: 50px;
+	font-size: 20px;
+	transition: 0.9s;
+}
+.portfolio {
+	border: 1px solid #C0C0C0;
+	background-color: #C0C0C0;
+	text-align: center;
+}
+.portfolio1 {
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 50px;
+	color: #AC1E44;
+	padding: 10px;
+}
+#expostudy {
+	border: 1px solid #C0C0C0;
+	border-radius: 6px;
+	opacity: 1.0;
+	margin-top: 50px;
+	color: red;
+	text-decoration: none;
+}
+.link {
+	color: red;
+}
+#expostudy:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+#study {
+	font-family: 'Architects Daughter', cursive;
+	color: #ffffff;
+}
+.link {
+	text-decoration: none;
+}
+#contact {
+	border: 1px solid #000000;
+	background-color: #000000;
+}
+.contact1 {
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 50px;
+	color: #AC1E44;
+	padding: 10px;
+}
+.together {
+	color: #808000;
+	margin-top: 50px;
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+}
+form {
+	display: inline-block;
+}
+.form-control {
+	background-color: #C0C0C0;
+	width: 300px;
+}
+#form {
+	display: block;
+	text-align: center;
+}
+.btn {
+	float: left;
+	margin-bottom: 5px;
+}
+footer {
+	border: 1px solid #313639;
+	background-color: #313639;
+	text-align: center;
+}
+.fa-twitter, .fa-github, .fa-linkedin {
+	margin-top: 50px;
+	font-size: 40px;
+	margin: 15px;
+	border: 5px solid #313639;
+	background-color: #313639;
+}
+.fa-linkedin {
+	color: #0E76A8;
+}
+.fa-twitter {
+	color: #38A1F3;
+}
+.fa-github {
+	color: #4078c0;
+}
+footer a {
+	text-decoration: none;
+}
+sub {
+	color: #f0f0f0;
+	font-family: 'Architects Daughter', cursive;
+}
+sub b {
+	color: #808000;
+	font-family: 'Architects Daughter', cursive;
+}
+.fa-whatsapp {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 35px;
+	color: #FFFFFF;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	background-color: #4FCE5D;
+	border: 10px solid #4FCE5D;
+	border-radius: 50%;
+}
+.whatsapp {
+	font-size: 10px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: green;
+}
+@media only screen and (min-width:992px) {
+	.fa-whatsapp {
+		display: none;
+	}
+	.whatsapp {
+		display: none;
+	}
+	.fa-linkedin:hover {
+		color: #0E76A8;
+		transition: 0.5s;
+	}
+	.fa-twitter:hover {
+		color: #38A1F3;
+		transition: 0.5s;
+	}
+	.fa-github:hover {
+		color: #4078c0;
+		transition: 0.5s;
+	}
+	.fa-twitter, .fa-linkedin, .fa-github {
+		color: #f0f0f0;
+	}
+	.goal {
+		font-size: 25px;
+	}
+	.form-control {
+		width: 500px;
+	}
+	.intro {
+	background-image: url(laptop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	text-shadow: 1px 1px #808000;
+	}
+	.intro h1 {
+		font-size: 30px;
+		color: #AC1E44;
+		text-align: center;
+		text-shadow: 1px 1px #000000;
+		font-family: 'Architects Daughter', cursive;
+	}
+}

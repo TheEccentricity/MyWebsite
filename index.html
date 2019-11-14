@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<title>contactdami</title>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="greyHound.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body  onload="load()">
+		<div id="loader"></div>
+		<div class="page" id="body">
+			<nav class="navbar fixed-top navbar-expand-lg">
+				<a class="navbar-brand" href="#">OYELEKE DAMILOLA</a>
+				<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsingNavbar">
+					<ul class="nav navbar-nav" data-toggle="collapse" data-target="#collapsingNavbar">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#home">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#service">SERVICES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#about">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#portfolio">PORTFOLIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#contact">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="intro" id="home">
+				<h1>Hello World! I'm <b>OYELEKE DAMILOLA</b>.</br>I'm a front-end web developer, programmer, and content writer.</h1>
+			</section>
+			<section class="tip" id="tip" onscroll="scroll()">
+				<h2 class="fa fa-pencil"></h2>
+				<h3><b class="fa fa-quote-left"></b> Don't just imagine,</br>let's create it! <b class="fa fa-quote-right"></b></h3>
+			</section>
+			<section class="service" id="service">
+				<u><h2 class="service1">SERVICES</h2></u>
+				<div class="container service2">
+					<p class="col text">A full-stack web developer, programmer, and content writer specialized in developing websites, promoting brands, developing web and mobile
+									applications, and writing non-plagiarized content.</p>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-lg-6">
+							<i class="fa fa-desktop"></i>
+							<h3 class="subs">Unique Design</h3>
+							<p class="service-exp">Your business, brand, or organization is a special one of its kind and you require a webpage that will distinguish you from the competition.
+							   With adequate focus and update on the latest web standards and trends, my proficiency in the use of HTML, CSS, JavaScript, and other necessary
+							   web frameworks guarantees a creative and dazzling design for your digital presence.
+							</p>
+						</div>
+						<div class="col-md-12 col-lg-6">
+							<i class="fa fa-book"></i>
+							<h3 class="subs">Non-Plagiarized Content</h3>
+							<p class="service-exp">A unique and convincing content can be a key to boost the digital growth and awareness of any business. I am confident of creating unique,  
+							   grammatically accurate, and search engine optimized content to advertise your business, rank and promote your webpages, describe your services, and convince your customers.</p>
+						</div>
+						<div class="col-md-12 col-lg-6">
+							<i class="fa fa-tachometer"></i>
+							<h3 class="subs">Fast Load-Time</h3>
+							<p class="service-exp">A website that loads slowly is worthless and can frustrate the patience of users, but a website that loads on time encourages users to explore and visit
+							   more often. It is my highest priority to ensure fast load times and lag free interactions in order to make your digital presence and awareness comfortable 
+							   and conducive for users.</p>
+						</div>
+						<div class="col-md-12 col-lg-6">
+							<i class="fa fa-mobile"></i>
+							<h3 class="subs">Responsiveness</h3>
+							<p class="service-exp">Indubitably, optimizing customer satisfaction and user experience is a crucial requirement for any brand that is focused on boosting its online
+							   or digital presence. It is to my greatest delight to create a responsive user-friendly website that is suitable for all devices in order to efficiently
+							   present your business.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about" id="about">
+				<u><h2 class="about1">ABOUT</h2></u>
+				<div class="container about2">
+					<div class="row">
+						<div class="col-lg">
+							<img class="img-responsive office" src="office.jpg" alt="home-office" width="200px" height="200px"></img>
+							<p class="about-me">I'm a front-end web developer and designer, programmer, and a content writer.</br>I have an incorrigible passion for coding, creativity,
+							   writing computer programs, and developing and designing wesites.</br>You have imagined something great, let's create it together!</p>
+						</div>
+					</div>
+					<div class="row goals">
+						<a class="col-4 col-lg-4 goals1" id="goals1" onmouseover="change()">
+							<h4 class="goal">Goal</h4>
+						</a>
+						<a class="col-4 col-lg-4 goals2" id="goals2" onmouseover="change1()">
+							<h4 class="goal">Commitment</h4>
+						</a>
+						<a class="col-4 col-lg-4 goals3" id="goals3" onmouseover="change2()">
+							<h4 class="goal">Values</h4>
+						</a>
+					</div>
+					<div class="row">
+						<p class="col-lg-12" id="example"></p>
+					</div>
+				</div>
+			</section>
+			<section class="portfolio" id="portfolio">
+				<u><h2 class="portfolio1">PORTFOLIO</h2></u>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<a href="http://expostudy.herokuapp.com/index.html" class="link"><img src="notepad.jpg" height="350px" width="350px" id="expostudy"></img></br><h2 id="study">EXPOSTUDY</h2></a>
+						</div>
+						<div class="col-lg-6">
+							<a href="https://shugaplanet.com.ng" class="link"><img src="shuga.jpg" height="350px" width="350px" id="expostudy"></img></br><h2 id="study">Shugaplanet</h2></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact">
+				<u><h2 class="contact1">CONTACT</h2></u>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="together">Have a question or want to create together?</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12" id="form">
+							<form action="https://formsubmit.co/youngmaster2704@gmail.com" method="POST">
+								<div class="form-group">
+									<input type="name" class="form-control" name="name" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email Address">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5" placeholder="Your Message"></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="container">
+					<div class="row">
+						<p class="col-lg-12"><a href="https://twitter.com/OyelekeDamilo12"><i class="fa fa-twitter"></i></a><a href="https://github.com/Youngmaster27"><i class="fa fa-github"></i></a><a href="https://www.linkedin.com/in/oyeleke-damilola-681b5418a/"><i class="fa fa-linkedin"></i></a></p>
+						<a href="https://wa.me/2348132956138"><p class="whatsapp"><i class="fa fa-whatsapp"></i></br>Let's talk on WhatsApp!</p></a>
+						<p class="col-lg-12"><sub>OYELEKE DAMILOLA <b>©2019</b></sub></p>
+					</div>
+				</div>
+			</footer>
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		</div>
+	</body>
+	<script>
+		var goal1 = "<p id=example-txt>The goal is to optimize customer satisfaction at all costs while also paying attention to the latest web development trends.</p>";
+		var goal2 = "<p id=example-txt>To create an effective website with dazzling design while also paying attention to responsiveness and user interaction.</p>";
+		var goal3 = "<p id=example-txt>To work creatively and giving my best to ensure that web pages are efficiently completed at all costs. </p>"
+		function change() {
+			document.getElementById("example").innerHTML = goal1;
+		}
+		function change1() {
+			document.getElementById("example").innerHTML = goal2;
+		}
+		function change2() {
+			document.getElementById("example").innerHTML = goal3;
+		}
+	</script>
+</html>
